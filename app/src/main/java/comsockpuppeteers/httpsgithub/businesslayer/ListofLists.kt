@@ -20,7 +20,8 @@ class FirstList() : ListofLists("FirstList")
         mlist.remove(name)
     }
 
-    fun PrintList(): String {
+    fun PrintList(): String
+    {
         var s = ""
         for (item in mlist)
         {
